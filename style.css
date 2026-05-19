@@ -1,0 +1,42 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0d0b14;
+  color: white;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #ff6fd8, #c471ed, #8f5cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(circle at top left, rgba(255, 105, 180, 0.25), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(168, 85, 247, 0.25), transparent 30%),
+    linear-gradient(to bottom, #0d0b14, #13111c);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.neon-btn {
+  background: linear-gradient(to right, #ff5fd2, #b06cff);
+  box-shadow: 0 0 20px rgba(255, 95, 210, 0.5);
+}
+
+.ingredient-card:hover {
+  box-shadow: 0 0 30px rgba(255, 95, 210, 0.3);
+}

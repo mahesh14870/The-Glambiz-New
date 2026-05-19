@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Glambiz - Glow Naturally</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="fixed top-0 w-full z-50 bg-black/30 backdrop-blur-lg border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <div>
+      <h1 class="text-2xl font-bold gradient-text">
+        The Glambiz
+      </h1>
+    </div>
+
+    <nav class="hidden md:flex gap-8 text-sm">
+      <a href="#about" class="hover:text-pink-400 transition">About</a>
+      <a href="#products" class="hover:text-pink-400 transition">Products</a>
+      <a href="#ingredients" class="hover:text-pink-400 transition">Ingredients</a>
+      <a href="#testimonials" class="hover:text-pink-400 transition">Reviews</a>
+      <a href="#faq" class="hover:text-pink-400 transition">FAQ</a>
+      <a href="#contact" class="hover:text-pink-400 transition">Contact</a>
+    </nav>
+
+    <a href="#products" class="hidden md:block neon-btn px-5 py-2 rounded-full text-sm font-medium">
+      Shop Now
+    </a>
+
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero-bg min-h-screen flex items-center pt-28">
+
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+
+    <!-- LEFT -->
+    <div>
+      <p class="uppercase tracking-[5px] text-pink-300 text-sm mb-4">
+        Korean Inspired Beauty
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        Glow <span class="gradient-text">Naturally</span>
+      </h1>
+
+      <p class="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl">
+        Unlock the secret to glass skin with our premium Korean-inspired skincare collection. Deep hydration, radiant glow, and luxurious nourishment in every product.
+      </p>
+
+      <div class="flex flex-wrap gap-4">
+        <a href="#products" class="neon-btn px-8 py-4 rounded-full font-semibold">
+          Explore Products
+        </a>
+
+        <a href="#about" class="glass px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="relative">
+
+      <div class="absolute -top-10 -left-10 w-48 h-48 bg-pink-500/30 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-0 right-0 w-48 h-48 bg-purple-500/30 rounded-full blur-3xl"></div>
+
+      <img
+        src="Images/Cosmatic.png"
+        class="relative rounded-[40px] shadow-2xl border border-white/10"
+        alt="Beauty"
+      />
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-24">
+
+  <div class="max-w-6xl mx-auto px-6 text-center">
+
+    <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+      About Brand
+    </p>
+
+    <h2 class="text-4xl md:text-5xl font-bold mb-8">
+      Premium Beauty For Modern Women
+    </h2>
+
+    <p class="text-gray-300 text-lg leading-relaxed max-w-4xl mx-auto">
+      The Glambiz combines Korean skincare innovation with luxurious feminine beauty aesthetics. Our products are carefully crafted with powerful ingredients like rice water, centella asiatica, and snail mucin to restore hydration, repair skin barriers, and reveal luminous glowing skin.
+    </p>
+
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="py-24 bg-white/5">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+        Our Collection
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold">
+        Products
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- CARD -->
+      <div class="product-card glass rounded-[30px] overflow-hidden transition duration-500">
+        <img src="Images/Sanglogsu_Skin Whitening.jpg" class="h-72 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Sanglogsu Cream</h3>
+          <p class="text-gray-300 text-sm mb-5">
+            Advanced skin whitening cream for radiant glass skin glow.
+          </p>
+          <button class="neon-btn px-5 py-3 rounded-full text-sm">
+            View Product
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="product-card glass rounded-[30px] overflow-hidden transition duration-500">
+        <img src="Images/Vitaglow Day Cream.jpg" class="h-72 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Vitaglow Night Cream</h3>
+          <p class="text-gray-300 text-sm mb-5">
+            Overnight nourishment with intense hydration and repair.
+          </p>
+          <button class="neon-btn px-5 py-3 rounded-full text-sm">
+            View Product
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="product-card glass rounded-[30px] overflow-hidden transition duration-500">
+        <img src="Images/Sanglogsu - Face Serum.jpg" class="h-72 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Sanglogsu Serum</h3>
+          <p class="text-gray-300 text-sm mb-5">
+            Brightening face serum with premium Korean ingredients.
+          </p>
+          <button class="neon-btn px-5 py-3 rounded-full text-sm">
+            View Product
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="product-card glass rounded-[30px] overflow-hidden transition duration-500">
+        <img src="Images/Pinkish Glow.jpg" class="h-72 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Pinkish Glow</h3>
+          <p class="text-gray-300 text-sm mb-5">
+            Feminine skincare formula for soft radiant complexion.
+          </p>
+          <button class="neon-btn px-5 py-3 rounded-full text-sm">
+            View Product
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="product-card glass rounded-[30px] overflow-hidden transition duration-500">
+        <img src="Images/Korean Beauty.jpg" class="h-72 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Korean Beauty</h3>
+          <p class="text-gray-300 text-sm mb-5">
+            Night cream for men & women glowing skin benefits.
+          </p>
+          <button class="neon-btn px-5 py-3 rounded-full text-sm">
+            View Product
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="product-card glass rounded-[30px] overflow-hidden transition duration-500">
+        <img src="Images/Crystal Glow.jpg" class="h-72 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Crystal Glow Cream</h3>
+          <p class="text-gray-300 text-sm mb-5">
+            Luxury glow-enhancing whitening cream for flawless beauty.
+          </p>
+          <button class="neon-btn px-5 py-3 rounded-full text-sm">
+            View Product
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section id="ingredients" class="py-24">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+        Natural Ingredients
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold">
+        Beauty Powered By Nature
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="ingredient-card glass rounded-[30px] p-10 transition duration-500">
+        <div class="text-5xl mb-6">🌾</div>
+        <h3 class="text-2xl font-semibold mb-4">Rice Water</h3>
+        <p class="text-gray-300">
+          Deep hydration and brightening benefits for glass-like glowing skin.
+        </p>
+      </div>
+
+      <div class="ingredient-card glass rounded-[30px] p-10 transition duration-500">
+        <div class="text-5xl mb-6">🐌</div>
+        <h3 class="text-2xl font-semibold mb-4">Snail Mucin</h3>
+        <p class="text-gray-300">
+          Helps repair skin barrier while improving elasticity and texture.
+        </p>
+      </div>
+
+      <div class="ingredient-card glass rounded-[30px] p-10 transition duration-500">
+        <div class="text-5xl mb-6">🌿</div>
+        <h3 class="text-2xl font-semibold mb-4">Centella Asiatica</h3>
+        <p class="text-gray-300">
+          Calms irritation and rejuvenates skin naturally with healing care.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="py-24 bg-white/5">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+        Testimonials
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold">
+        What Our Customers Say
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="glass rounded-[30px] p-8">
+        <p class="text-gray-300 mb-6">
+          "My skin feels softer and brighter within two weeks. Absolutely luxurious!"
+        </p>
+        <h4 class="font-semibold">Priya S.</h4>
+      </div>
+
+      <div class="glass rounded-[30px] p-8">
+        <p class="text-gray-300 mb-6">
+          "The glow is unreal. The Glambiz products became part of my daily skincare."
+        </p>
+        <h4 class="font-semibold">Ananya R.</h4>
+      </div>
+
+      <div class="glass rounded-[30px] p-8">
+        <p class="text-gray-300 mb-6">
+          "Premium quality and beautiful packaging. My favorite Korean skincare brand."
+        </p>
+        <h4 class="font-semibold">Sneha K.</h4>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="py-24">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+        Instagram
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold">
+        @TheGlambiz
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" class="rounded-3xl h-72 object-cover w-full">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop" class="rounded-3xl h-72 object-cover w-full">
+      <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop" class="rounded-3xl h-72 object-cover w-full">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop" class="rounded-3xl h-72 object-cover w-full">
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-24 bg-white/5">
+
+  <div class="max-w-4xl mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+        FAQ
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold">
+        Frequently Asked Questions
+      </h2>
+    </div>
+
+    <div class="space-y-6">
+
+      <div class="glass rounded-3xl p-6">
+        <h3 class="font-semibold text-xl mb-3">
+          Are these products suitable for all skin types?
+        </h3>
+        <p class="text-gray-300">
+          Yes, our products are designed for all skin types including dry, oily, and sensitive skin.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-6">
+        <h3 class="font-semibold text-xl mb-3">
+          Do your products contain Korean ingredients?
+        </h3>
+        <p class="text-gray-300">
+          Absolutely. We use premium Korean-inspired ingredients like snail mucin, rice water, and centella asiatica.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-6">
+        <h3 class="font-semibold text-xl mb-3">
+          How long does it take to see results?
+        </h3>
+        <p class="text-gray-300">
+          Most users notice visible glow and hydration within 2-3 weeks of regular usage.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-24">
+
+  <div class="max-w-4xl mx-auto px-6">
+
+    <div class="glass rounded-[40px] p-10 md:p-16">
+
+      <div class="text-center mb-12">
+        <p class="text-pink-400 uppercase tracking-[4px] mb-4">
+          Contact Us
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold">
+          Get In Touch
+        </h2>
+      </div>
+
+      <form class="space-y-6">
+
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-pink-400"
+        />
+
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-pink-400"
+        />
+
+        <textarea
+          rows="5"
+          placeholder="Your Message"
+          class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-pink-400"
+        ></textarea>
+
+        <button type="submit" class="neon-btn px-8 py-4 rounded-full font-semibold">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10 py-10">
+
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+    <div>
+      <h2 class="text-3xl font-bold gradient-text">
+        The Glambiz
+      </h2>
+
+      <p class="text-gray-400 mt-2">
+        Glow Naturally ✨
+      </p>
+    </div>
+
+    <div class="text-gray-400 text-sm">
+      <br> Mobile: +91 90000 46648
+      <br> Gmail: theglambiz@gmail.com </br>
+
+      © 2026 The Glambiz. All rights reserved.
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a
+  href="https://wa.me/919999999999"
+  target="_blank"
+  class="fixed bottom-6 right-6 z-50 bg-green-500 hover:scale-110 transition duration-300 w-16 h-16 rounded-full flex items-center justify-center shadow-2xl"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 24 24">
+    <path d="M20.52 3.48A11.82 11.82 0 0012.05 0C5.5 0 .17 5.33.17 11.88c0 2.09.55 4.14 1.6 5.95L0 24l6.36-1.67a11.84 11.84 0 005.69 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.23-6.14-3.42-8.42z"/>
+  </svg>
+</a>
+
+<!-- Custom Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
